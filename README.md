@@ -40,3 +40,8 @@ Changes directory to the ImageBuilder folder and runs make image with the profil
 
 # Image output:
 Finds the generated sysupgrade image file, verifies it exists, and copies it to the user’s Desktop with a timestamped filename.
+
+# SCREEN SETUP
+<img src="https://raw.githubusercontent.com/ilblogdicristiangallo/Build-OpenWRT-ZTE-MF286D/main/ScreenShot/Screen-Build-OpenWrt.png" alt="OpenWRT Build Screenshot" />
+<img src="https://raw.githubusercontent.com/ilblogdicristiangallo/Build-OpenWRT-ZTE-MF286D/main/ScreenShot/Screen-Build-OpenWrt2.png" alt="OpenWRT Build Screenshot2" />
+
