@@ -3,6 +3,17 @@ Customized OpenWrt image builder with essential 4G modem support
 
 This script automates the process of building a customized OpenWrt firmware image, specifically for the zte_mf286d profile with version 24.10.3 on the ipq40xx/generic platform.
 
+# Install PACKAGES Custom:
+
+This script automates the download, extraction, and building of a customized OpenWrt firmware image for the ZTE MF286D router (target ipq40xx/generic). It uses the OpenWrt ImageBuilder for version 24.10.3 and integrates the following compatible packages essential for 4G modem support and network management:
+# Example
+
+<pre>kmod-usb-serial-option kmod-usb-serial kmod-usb-serial-wwan
+usb-modeswitch kmod-mii kmod-usb-net kmod-usb-wdm
+kmod-usb-net-qmi-wwan uqmi kmod-usb-net-cdc-mbim
+luci-proto-qmi modemmanager</pre>
+
+
 # Main steps of the script:
 
 Initial setup:
